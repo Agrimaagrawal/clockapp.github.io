@@ -1,0 +1,33 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+body{
+    height:100vh;
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #10101E;
+}
+.clock{
+    height:30vh;
+    justify-content: center;
+    align-items: flex-start;
+   font-size: 900px;
+   color: blue;
+   font-weight: 1000;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#datetime{
+    color:purple;
+    font-size: 50px;
+    font-weight: bold;
+    background: #10101E;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 340px;
+    padding :20px 25px;
+    border:3px solid blueviolet;
+}
